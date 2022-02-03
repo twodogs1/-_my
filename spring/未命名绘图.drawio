@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2022-02-03T06:48:12.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" version="16.5.3" etag="5pcH8EKR4SxxjYYCuc-s" type="github"><diagram id="OHPH3KOMhhOK7PeEm14m">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-03T07:12:06.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="YHbz3AbcYt28ZBVJ_Q5x" version="16.5.3" type="github">
+  <diagram id="OHPH3KOMhhOK7PeEm14m" name="第 1 页">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VUsSlx-cH4-yBWy_o5I6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-1" value="@Componet声明管理类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-3" value="PathXmlApplicationContext（代理）&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VUsSlx-cH4-yBWy_o5I6-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VUsSlx-cH4-yBWy_o5I6-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="350" />
+              <mxPoint x="580" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-13" value="读取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUsSlx-cH4-yBWy_o5I6-11">
+          <mxGeometry x="-0.3379" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-4" value="设计师&lt;br&gt;beanDifenitionRegister" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VUsSlx-cH4-yBWy_o5I6-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-9" value="进行类的创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUsSlx-cH4-yBWy_o5I6-7">
+          <mxGeometry x="-0.2089" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-6" value="图纸&lt;br&gt;BeanDefinition（保存了创建类的信息）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-8" value="beanfactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-12" value="xml的配置，或者一些注解" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VUsSlx-cH4-yBWy_o5I6-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VUsSlx-cH4-yBWy_o5I6-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="759.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-14" value="beanDifenitionReader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-17" value="beanDifinitonScanner进行扫描需要管理的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="340" width="720" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="VUsSlx-cH4-yBWy_o5I6-19" value="IOC容器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
